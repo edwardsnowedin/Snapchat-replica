@@ -33,10 +33,6 @@ a{
   background: #BA3232;
 }
 
-/*#sign-up:hover{
-  background: #4169E1;
-}*/
-
 #sign-up:hover{
   background: #4682B4;
 }
@@ -44,9 +40,4 @@ a{
 footer{
   position: relative;
   top: 330px;
-}
-
-/*Form styles*/
-#form-page{
-  background: #F6F6F6;
 }
