@@ -1,3 +1,4 @@
+/*Index Styles*/
 body{
   background-color: #ffff19;
   text-align: center;
@@ -14,6 +15,7 @@ a{
   text-decoration: none;
   color: #FFF;
   font-size: 28px;
+  text-transform: uppercase;;
 }
 #log{
   background-color: #ff3232;
@@ -26,9 +28,6 @@ a{
   padding: 20px;
 }
 
-#log, #sign-up{
-  text-transformation: capitalize;
-}
 
 #log:hover{
   background: #BA3232;
@@ -41,7 +40,13 @@ a{
 #sign-up:hover{
   background: #4682B4;
 }
+
 footer{
   position: relative;
   top: 330px;
+}
+
+/*Form styles*/
+#form-page{
+  background: #F6F6F6;
 }
