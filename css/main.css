@@ -6,7 +6,6 @@ body{
 }
 
 #logo{
-
   margin: 30px auto;
   height: 200px
 }
@@ -16,31 +15,31 @@ a{
   color: #FFF;
   font-size: 28px;
 }
-
-#first-footer:hover{
-  background: #BA3232;
-}
-#second-footer:hover{
-  background: #4169E1;
-}
-
-#first-footer, #second-footer{
-  text-transformation: capitalize;
-}
-#first-footer{
+#log{
   background-color: #ff3232;
   color: #FFF;
   padding: 20px;
 }
-
-#second-footer{
+#sign-up{
   background-color: #00BFFF;
   color: #FFF;
   padding: 20px;
 }
 
-#second-footer:hover{
-  color:  #4682B4;
+#log, #sign-up{
+  text-transformation: capitalize;
+}
+
+#log:hover{
+  background: #BA3232;
+}
+
+/*#sign-up:hover{
+  background: #4169E1;
+}*/
+
+#sign-up:hover{
+  background: #4682B4;
 }
 footer{
   position: relative;
